@@ -1,0 +1,13 @@
+{
+  "TC003": {
+    "error_message": "User-ID must not be blank"
+  },
+  "TC004": {
+    "error_message": "Password must not be blank"
+  },
+  "TC005": {
+    "user_id": "mngr512485",
+    "user_password": "AhEmumy",
+    "expected_message": "Manger Id : "
+  }
+}

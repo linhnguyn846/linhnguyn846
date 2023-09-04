@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Demo">
+    <parameter name="device" value="ios_14_pro_max" />
+    <test name="Smoke TestNG Demo" >
+        <classes>
+            <class name="vn.edu.vtiacademy.training.tests.mobile.LoginTest" />
+        </classes>
+    </test>
+</suite>
