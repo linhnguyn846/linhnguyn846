@@ -1,235 +1,145 @@
-INFO  | 2023-08-30 16:17:09 | [main] utils.helper.FileHelper (FileHelper.java:getDataJSONFilePath:21) - D:\2023\AutomationTest\VTI_AT-20230524_Selenium\AutomationFramework\src\main\resources\testdata\NewAccountTest.json
-INFO  | 2023-08-30 16:17:10 | [main] utils.helper.FileHelper (FileHelper.java:getExcelDataFilePath:29) - D:\2023\AutomationTest\VTI_AT-20230524_Selenium\AutomationFramework\src\main\resources\testdata\DataTest.xlsx
-INFO  | 2023-08-30 16:17:10 | [main] utils.helper.FileHelper (FileHelper.java:getDataJSONFilePath:21) - D:\2023\AutomationTest\VTI_AT-20230524_Selenium\AutomationFramework\src\main\resources\testdata\NewAccountTest.json
-INFO  | 2023-08-30 16:17:10 | [main] testng.log4testng.Logger (Logger.java:info:112) - [TestNG] Running:
-  D:\2023\AutomationTest\VTI_AT-20230524_Selenium\AutomationFramework\src\main\resources\testsuite\NewAccountTest.xml
+INFO  | 2023-09-06 09:58:47 | [main] utils.helper.FileHelper (FileHelper.java:getDataJSONFilePath:21) - D:\2023\VTI_AT-20230524_Selenium\LinhNTM\MockProject\src\main\resources\testdata\EditAccountTest.json
+INFO  | 2023-09-06 09:58:47 | [main] utils.helper.FileHelper (FileHelper.java:getExcelDataFilePath:29) - D:\2023\VTI_AT-20230524_Selenium\LinhNTM\MockProject\src\main\resources\testdata\DataTest.xlsx
+INFO  | 2023-09-06 09:58:47 | [main] testng.log4testng.Logger (Logger.java:info:112) - [TestNG] Running:
+  D:\2023\VTI_AT-20230524_Selenium\LinhNTM\MockProject\src\main\resources\testsuite\EditAccountTest.xml
 
-INFO  | 2023-08-30 16:17:10 | [main] utils.keywords.WebUI (WebUI.java:openBrowser:51) - Launching FIREFOX
-INFO  | 2023-08-30 16:17:21 | [main] utils.keywords.WebUI (WebUI.java:openBrowser:68) - Launched FIREFOX successfully
-INFO  | 2023-08-30 16:17:21 | [main] utils.keywords.WebUI (WebUI.java:openBrowser:76) - Navigating to 'https://demo.guru99.com/v4/'
-INFO  | 2023-08-30 16:17:35 | [main] utils.keywords.WebUI (WebUI.java:openBrowser:78) - Navigated to 'https://demo.guru99.com/v4/' successfully
-INFO  | 2023-08-30 16:17:35 | [main] utils.keywords.WebUI (WebUI.java:maximizeWindow:171) - Window maximized successfully
-INFO  | 2023-08-30 16:17:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='uid']'
-INFO  | 2023-08-30 16:17:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='uid']'
-INFO  | 2023-08-30 16:17:35 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text 'mngr519780' into element: //input[@name='uid']
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='uid']' and taking screenshot
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='uid']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='uid']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,053'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='password']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='password']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text 'uquhAqy' into element: //input[@name='password']
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='password']' and taking screenshot
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='password']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='password']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,077'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='btnLogin']' and taking screenshot
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='btnLogin']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='btnLogin']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,031'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='btnLogin']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='btnLogin']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:clickJS:1192) - Clicking web element located by '//input[@name='btnLogin']'
-INFO  | 2023-08-30 16:17:36 | [main] utils.keywords.WebUI (WebUI.java:clickJS:1195) - Click web element located by '//input[@name='btnLogin']' successfully
-INFO  | 2023-08-30 16:17:39 | [main] utils.keywords.WebUI (WebUI.java:delayInSecond:1152) - Delayed '3' seconds
-INFO  | 2023-08-30 16:17:43 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//tr[@class='heading3']/td[contains(normalize-space(),'Manger Id')]' and taking screenshot
-INFO  | 2023-08-30 16:17:43 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//tr[@class='heading3']/td[contains(normalize-space(),'Manger Id')]'
-INFO  | 2023-08-30 16:17:43 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//tr[@class='heading3']/td[contains(normalize-space(),'Manger Id')]'
-INFO  | 2023-08-30 16:17:43 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,016'
-INFO  | 2023-08-30 16:17:43 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:43 | [main] project.exercise4.NewAccountTest (NewAccountTest.java:TC001_should_be_to_show_customer_id_error_message_press_tab_key:26) - Test case: TC001_should_be_to_show_customer_id_error_message_press_tab_key
-INFO  | 2023-08-30 16:17:43 | [main] utils.keywords.WebUI (WebUI.java:navigateToUrl:129) - Navigating to 'https://demo.guru99.com/v4/manager/addAccount.php'
-INFO  | 2023-08-30 16:17:43 | [main] utils.keywords.WebUI (WebUI.java:navigateToUrl:131) - Navigating to 'https://demo.guru99.com/v4/manager/addAccount.php'
-INFO  | 2023-08-30 16:17:44 | [main] utils.keywords.WebUI (WebUI.java:navigateToUrl:133) - Navigated to 'https://demo.guru99.com/v4/manager/addAccount.php' successfully
-INFO  | 2023-08-30 16:17:44 | [main] project.exercise4.BaseTest (BaseTest.java:findTestDataInExcel:224) - Data file: D:\2023\AutomationTest\VTI_AT-20230524_Selenium\AutomationFramework\src\main\resources\testdata\DataTest.xlsx
-INFO  | 2023-08-30 16:17:49 | [main] utils.helper.ReadFileExcel (ReadFileExcel.java:readDataFileExcel:108) - Super map{NA4={inputValue=123 12, errorMessage=Characters are not allowed}, NA3={inputValue=123#@, errorMessage=Special characters are not allowed}, NA6={inputValue=, errorMessage=Initial Deposit must not be blank}, NA5={inputValue= 1ac, errorMessage=First character can not have space}, NA8={inputValue=123#@, errorMessage=Special characters are not allowed}, NA7={inputValue=Acc123, errorMessage=Characters are not allowed}, NA10={inputValue= 1ac, errorMessage=First character can not have space}, NA001={inputValue=, errorMessage=Customer ID is required}, NA9={inputValue=123 12, errorMessage=Characters are not allowed}, NA2={inputValue=Acc123, errorMessage=Characters are not allowed}}
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='cusid']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='cusid']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text '' into element: //input[@name='cusid']
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='cusid']' and taking screenshot
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='cusid']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='cusid']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,016'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message14']' and taking screenshot
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,026'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:verifyElementPresent:541) - Web element located by '//label[@id='message14']' is present
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message14']' and taking screenshot
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,019'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:49 | [main] utils.keywords.WebUI (WebUI.java:verifyElementVisible:468) - Web element located by '//label[@id='message14']' is visible
-INFO  | 2023-08-30 16:17:50 | [main] project.exercise4.NewAccountTest (NewAccountTest.java:TC002_should_be_to_show_Customer_Id_error_message_type_character_value:41) - Test case: TC002_should_be_to_show_Customer_Id_error_message_type_character_value
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='cusid']'
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='cusid']'
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text 'Acc123' into element: //input[@name='cusid']
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='cusid']' and taking screenshot
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='cusid']'
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='cusid']'
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,01'
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message14']' and taking screenshot
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:50 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,015'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'Characters are not allowed' and expected text 'Characters are not allowed' of web element located by 'Characters are not allowed' are the same
-INFO  | 2023-08-30 16:17:51 | [main] project.exercise4.NewAccountTest (NewAccountTest.java:TC003_should_be_to_show_customer_id_error_message_type_special_character_value:52) - Test case: TC003_should_be_to_show_customer_id_error_message_type_special_character_value
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text '123!@#' into element: //input[@name='cusid']
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='cusid']' and taking screenshot
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,017'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message14']' and taking screenshot
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,01'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'Special characters are not allowed' and expected text 'Special characters are not allowed' of web element located by 'Special characters are not allowed' are the same
-INFO  | 2023-08-30 16:17:51 | [main] project.exercise4.NewAccountTest (NewAccountTest.java:TC004_should_be_to_show_customer_id_error_message_type_character_value_press_tab_key:62) - Test case: TC004_should_be_to_show_customer_id_error_message_type_character_value_press_tab_key
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text '123 12' into element: //input[@name='cusid']
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='cusid']' and taking screenshot
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,021'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message14']' and taking screenshot
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,019'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'Characters are not allowed' and expected text 'Characters are not allowed' of web element located by 'Characters are not allowed' are the same
-INFO  | 2023-08-30 16:17:51 | [main] project.exercise4.NewAccountTest (NewAccountTest.java:TC005_should_be_to_show_customer_id_error_message_type_first_character_value_press_tab_key:72) - Test case: TC005_should_be_to_show_customer_id_error_message_type_first_character_value_press_tab_key
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text ' 12' into element: //input[@name='cusid']
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='cusid']' and taking screenshot
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='cusid']'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,017'
-INFO  | 2023-08-30 16:17:51 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message14']' and taking screenshot
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message14']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,011'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message14']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'First character can not have space' and expected text 'First character can not have space' of web element located by 'First character can not have space' are the same
-INFO  | 2023-08-30 16:17:52 | [main] project.exercise4.NewAccountTest (NewAccountTest.java:TC006_should_be_to_show_initial_deposit_error_message_press_tab_key:82) - Test case: TC006_should_be_to_show_initial_deposit_error_message_press_tab_key
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text '' into element: //input[@name='inideposit']
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='inideposit']' and taking screenshot
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,016'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message19']' and taking screenshot
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,023'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:verifyElementPresent:541) - Web element located by '//label[@id='message19']' is present
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message19']' and taking screenshot
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,011'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:verifyElementVisible:468) - Web element located by '//label[@id='message19']' is visible
-INFO  | 2023-08-30 16:17:52 | [main] project.exercise4.NewAccountTest (NewAccountTest.java:TC007_should_be_to_show_initial_deposit_error_message_type_character_value:96) - Test case: TC007_should_be_to_show_initial_deposit_error_message_type_character_value
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text 'Acc123' into element: //input[@name='inideposit']
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='inideposit']' and taking screenshot
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,012'
-INFO  | 2023-08-30 16:17:52 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message19']' and taking screenshot
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,013'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'Characters are not allowed' and expected text 'Characters are not allowed' of web element located by 'Characters are not allowed' are the same
-INFO  | 2023-08-30 16:17:53 | [main] project.exercise4.NewAccountTest (NewAccountTest.java:TC008_should_be_to_show_initial_deposit_error_message_type_special_character_value:107) - Test case: TC008_should_be_to_show_initial_deposit_error_message_type_special_character_value
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text '123!@#' into element: //input[@name='inideposit']
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='inideposit']' and taking screenshot
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,02'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message19']' and taking screenshot
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,03'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'Special characters are not allowed' and expected text 'Special characters are not allowed' of web element located by 'Special characters are not allowed' are the same
-INFO  | 2023-08-30 16:17:53 | [main] project.exercise4.NewAccountTest (NewAccountTest.java:TC009_should_be_to_show_initial_deposit_error_message_type_character_value_press_tab_key:117) - Test case: TC009_should_be_to_show_initial_deposit_error_message_type_character_value_press_tab_key
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text '123 12' into element: //input[@name='inideposit']
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='inideposit']' and taking screenshot
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,015'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message19']' and taking screenshot
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,012'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'Characters are not allowed' and expected text 'Characters are not allowed' of web element located by 'Characters are not allowed' are the same
-INFO  | 2023-08-30 16:17:53 | [main] project.exercise4.NewAccountTest (NewAccountTest.java:TC010_should_be_to_show_initial_deposit_error_message_type_first_character_value_press_tab_key:127) - Test case: TC010_should_be_to_show_initial_deposit_error_message_type_first_character_value_press_tab_key
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:53 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text ' 12' into element: //input[@name='inideposit']
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='inideposit']' and taking screenshot
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='inideposit']'
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,021'
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message19']' and taking screenshot
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message19']'
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,009'
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message19']'
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'First character can not have space' and expected text 'First character can not have space' of web element located by 'First character can not have space' are the same
-INFO  | 2023-08-30 16:17:54 | [main] utils.keywords.WebUI (WebUI.java:closeBrowser:88) - Closing the browser
-INFO  | 2023-08-30 16:17:56 | [main] utils.keywords.WebUI (WebUI.java:closeBrowser:92) - Closed the browser successfully
+INFO  | 2023-09-06 09:58:47 | [main] utils.keywords.WebUI (WebUI.java:openBrowser:51) - Launching FIREFOX
+INFO  | 2023-09-06 09:59:03 | [main] utils.keywords.WebUI (WebUI.java:openBrowser:68) - Launched FIREFOX successfully
+INFO  | 2023-09-06 09:59:03 | [main] utils.keywords.WebUI (WebUI.java:openBrowser:76) - Navigating to 'https://demo.guru99.com/v4/'
+INFO  | 2023-09-06 09:59:20 | [main] utils.keywords.WebUI (WebUI.java:openBrowser:78) - Navigated to 'https://demo.guru99.com/v4/' successfully
+INFO  | 2023-09-06 09:59:20 | [main] utils.keywords.WebUI (WebUI.java:maximizeWindow:171) - Window maximized successfully
+INFO  | 2023-09-06 09:59:20 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='uid']'
+INFO  | 2023-09-06 09:59:20 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='uid']'
+INFO  | 2023-09-06 09:59:20 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text 'mngr519780' into element: //input[@name='uid']
+INFO  | 2023-09-06 09:59:20 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='uid']' and taking screenshot
+INFO  | 2023-09-06 09:59:20 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='uid']'
+INFO  | 2023-09-06 09:59:20 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='uid']'
+INFO  | 2023-09-06 09:59:20 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,05'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='password']'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='password']'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text 'uquhAqy' into element: //input[@name='password']
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='password']' and taking screenshot
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='password']'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='password']'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,014'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='btnLogin']' and taking screenshot
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='btnLogin']'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='btnLogin']'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,084'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='btnLogin']'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='btnLogin']'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:clickJS:1192) - Clicking web element located by '//input[@name='btnLogin']'
+INFO  | 2023-09-06 09:59:21 | [main] utils.keywords.WebUI (WebUI.java:clickJS:1195) - Click web element located by '//input[@name='btnLogin']' successfully
+INFO  | 2023-09-06 09:59:24 | [main] utils.keywords.WebUI (WebUI.java:delayInSecond:1152) - Delayed '3' seconds
+INFO  | 2023-09-06 09:59:27 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//tr[@class='heading3']/td[contains(normalize-space(),'Manger Id')]' and taking screenshot
+INFO  | 2023-09-06 09:59:27 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//tr[@class='heading3']/td[contains(normalize-space(),'Manger Id')]'
+INFO  | 2023-09-06 09:59:27 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//tr[@class='heading3']/td[contains(normalize-space(),'Manger Id')]'
+INFO  | 2023-09-06 09:59:27 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,019'
+INFO  | 2023-09-06 09:59:27 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:28 | [main] project.exercise4.EditAccountTest (EditAccountTest.java:TC001_should_be_to_show_Account_number_error_message_press_tab_key:29) - Test case: TC001_should_be_to_show_Account_number_error_message_press_tab_key
+INFO  | 2023-09-06 09:59:28 | [main] utils.keywords.WebUI (WebUI.java:navigateToUrl:129) - Navigating to 'https://demo.guru99.com/v4/manager/editAccount.php'
+INFO  | 2023-09-06 09:59:28 | [main] utils.keywords.WebUI (WebUI.java:navigateToUrl:131) - Navigating to 'https://demo.guru99.com/v4/manager/editAccount.php'
+INFO  | 2023-09-06 09:59:29 | [main] utils.keywords.WebUI (WebUI.java:navigateToUrl:133) - Navigated to 'https://demo.guru99.com/v4/manager/editAccount.php' successfully
+INFO  | 2023-09-06 09:59:29 | [main] project.exercise4.BaseTest (BaseTest.java:findTestDataByTestCaseID:237) - Data file: D:\2023\VTI_AT-20230524_Selenium\LinhNTM\MockProject\src\main\resources\testdata\DataTest.xlsx
+INFO  | 2023-09-06 09:59:33 | [main] utils.keywords.Excel (Excel.java:readExcelSheetByTestCaseID:175) - Super map{inputValue=, errorMessage=Account Number must not be blank}
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='accountno']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='accountno']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text '' into element: //input[@name='accountno']
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='accountno']' and taking screenshot
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='accountno']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='accountno']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,012'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message2']' and taking screenshot
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,019'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:verifyElementPresent:541) - Web element located by '//label[@id='message2']' is present
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message2']' and taking screenshot
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,021'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:34 | [main] utils.keywords.WebUI (WebUI.java:verifyElementVisible:468) - Web element located by '//label[@id='message2']' is visible
+INFO  | 2023-09-06 09:59:34 | [main] project.exercise4.EditAccountTest (EditAccountTest.java:TC002_should_be_to_show_Account_number_error_message_type_character_value:46) - Test case: TC002_should_be_to_show_Account_number_error_message_type_character_value
+INFO  | 2023-09-06 09:59:34 | [main] project.exercise4.BaseTest (BaseTest.java:findTestDataByTestCaseID:237) - Data file: D:\2023\VTI_AT-20230524_Selenium\LinhNTM\MockProject\src\main\resources\testdata\DataTest.xlsx
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.Excel (Excel.java:readExcelSheetByTestCaseID:175) - Super map{inputValue=Acc123, errorMessage=Characters are not allowed, expectedMessage=Characters are not allowed}
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='accountno']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='accountno']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text 'Acc123' into element: //input[@name='accountno']
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='accountno']' and taking screenshot
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='accountno']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='accountno']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,018'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:35 | [main] project.exercise4.BaseTest (BaseTest.java:findTestDataByTestCaseID:237) - Data file: D:\2023\VTI_AT-20230524_Selenium\LinhNTM\MockProject\src\main\resources\testdata\DataTest.xlsx
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.Excel (Excel.java:readExcelSheetByTestCaseID:175) - Super map{inputValue=Acc123, errorMessage=Characters are not allowed, expectedMessage=Characters are not allowed}
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message2']' and taking screenshot
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,024'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'Characters are not allowed' and expected text 'Characters are not allowed' of web element located by 'Characters are not allowed' are the same
+INFO  | 2023-09-06 09:59:35 | [main] project.exercise4.EditAccountTest (EditAccountTest.java:TC003_should_be_to_show_Account_number_error_message_type_special_character_value:57) - Test case: TC003_should_be_to_show_Account_number_error_message_type_special_character_value
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='accountno']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='accountno']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text '123!@#' into element: //input[@name='accountno']
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='accountno']' and taking screenshot
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='accountno']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='accountno']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,01'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message2']' and taking screenshot
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:35 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,015'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'Special characters are not allowed' and expected text 'Special characters are not allowed' of web element located by 'Special characters are not allowed' are the same
+INFO  | 2023-09-06 09:59:36 | [main] project.exercise4.EditAccountTest (EditAccountTest.java:TC005_should_be_to_show_Account_number_error_message_type_character_value_press_tab_key:67) - Test case: TC005_should_be_to_show_Account_number_error_message_type_character_value_press_tab_key
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='accountno']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='accountno']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text '123 12' into element: //input[@name='accountno']
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='accountno']' and taking screenshot
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='accountno']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='accountno']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,02'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message2']' and taking screenshot
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,011'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'Characters are not allowed' and expected text 'Characters are not allowed' of web element located by 'Characters are not allowed' are the same
+INFO  | 2023-09-06 09:59:36 | [main] project.exercise4.EditAccountTest (EditAccountTest.java:TC006_should_be_to_show_Account_number_error_message_type_first_character_value_press_tab_key:77) - Test case: TC006_should_be_to_show_Account_number_error_message_type_first_character_value_press_tab_key
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //input[@name='accountno']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //input[@name='accountno']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:sendKeys:353) - Entered text '1 2' into element: //input[@name='accountno']
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//input[@name='accountno']' and taking screenshot
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//input[@name='accountno']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//input[@name='accountno']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,02'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1458) - Highlight web element located by '//label[@id='message2']' and taking screenshot
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:200) - Finding web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:224) - Found 1 web element located by '//label[@id='message2']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:235) - Timeout: '0,011'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:takeScreenShotAndHighLightElement:1471) - Taken screenshot successfully
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:181) - Finding web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:findElement:184) - Found 1 web element located by 'By.xpath: //label[@id='message2']'
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:verifyElementText:743) - Actual text 'Characters are not allowed' and expected text 'Characters are not allowed' of web element located by 'Characters are not allowed' are the same
+INFO  | 2023-09-06 09:59:36 | [main] utils.keywords.WebUI (WebUI.java:closeBrowser:88) - Closing the browser
+INFO  | 2023-09-06 09:59:40 | [main] utils.keywords.WebUI (WebUI.java:closeBrowser:92) - Closed the browser successfully

@@ -13,8 +13,10 @@ public class EditAccountTest extends BaseTest {
 
     public EditAccountTest() {
         super();
-//       objEditAccount = new EditAccount(this.webUI);
+       objEditAccount = new EditAccount(this.webUI);
         setDataFile(EditAccountTest.class.getSimpleName());
+        setDataFileExcelPath("DataTest");
+        setSheetName(EditAccountTest.class.getSimpleName());
 
 
     }
@@ -25,10 +27,10 @@ public class EditAccountTest extends BaseTest {
     @Description("Verify error message at account number text box if user input empty text")
     public void TC001_should_be_to_show_Account_number_error_message_press_tab_key(Method method)  {
         logger.info("Test case: " + method.getName());
-       objEditAccount.navigatoToURL();
+       objEditAccount.navigateToEditAccountPage();
 //        objEditAccount=objManager.objLeftMenu.gotoEditAccount;
 //        objEditAccount.objAdvertisementPopup.closePopUp();
-        objEditAccount.inputAccountNo(findTestData("EA1.value"));
+        objEditAccount.inputAccountNo(findTestDataByTestCaseID("EA1").get("inputValue"));
         SoftAssert softAssertion = new SoftAssert();
         softAssertion.assertTrue(objEditAccount.shouldPresentAccountNumberErrorMessageInHTMLDom(),
                 "Should not present User Id error message element in HTML DOM");
@@ -43,8 +45,8 @@ public class EditAccountTest extends BaseTest {
     public void TC002_should_be_to_show_Account_number_error_message_type_character_value(Method method) {
         logger.info("Test case: " + method.getName());
         SoftAssert softAssertion = new SoftAssert();
-        objEditAccount.inputAccountNo(findTestData("EA2.value"));
-        softAssertion.assertTrue(objEditAccount.shouldBeToShowAccountNumberErrorMessageWhenTypeCharacterValue(findTestData("EA2.error_message")));
+        objEditAccount.inputAccountNo(findTestDataByTestCaseID("EA2").get("inputValue"));
+        softAssertion.assertTrue(objEditAccount.shouldBeToShowAccountNumberErrorMessageWhenTypeCharacterValue(findTestDataByTestCaseID("EA2").get("expectedMessage")));
 
     }
 

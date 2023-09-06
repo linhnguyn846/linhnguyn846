@@ -16,6 +16,7 @@ import vn.edu.vtiacademy.training.tests.LoginTest;
 import vn.edu.vtiacademy.training.utils.helper.FileHelper;
 import vn.edu.vtiacademy.training.utils.helper.LogHelper;
 import vn.edu.vtiacademy.training.utils.helper.ReadFileExcel;
+import vn.edu.vtiacademy.training.utils.keywords.Excel;
 import vn.edu.vtiacademy.training.utils.keywords.WebUI;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -227,6 +228,18 @@ public class BaseTest {
         } catch (Exception e) {
             logger.error(MessageFormat.format("Cannot find data with name ''{0}''. Root cause: {1}",sheetName,
                      e.getMessage()));
+        }
+        return null;
+    }
+    public HashMap<String, String> findTestDataByTestCaseID(String testcaseId) {
+        String dataFile = this.getDataExcelFile();
+        String sheetName = this.getSheetName();
+        logger.info("Data file: " + dataFile);
+        try {
+            return Excel.readExcelSheetByTestCaseID(dataFile, sheetName, testcaseId);
+        } catch (Exception e) {
+            logger.error(MessageFormat.format("Cannot find data with name ''{0}''. Root cause: {1}",
+                    sheetName, e.getMessage()));
         }
         return null;
     }

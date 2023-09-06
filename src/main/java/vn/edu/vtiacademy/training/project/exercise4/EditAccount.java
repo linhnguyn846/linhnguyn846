@@ -12,8 +12,8 @@ public class EditAccount extends BasePage {
 
 
     @Step("Navigate to url")
-    public void navigatoToURL(){
-    webUI.navigateToUrl(EditAccountRepo.EDITACCOUNT_URL);
+    public void navigateToEditAccountPage(){
+        webUI.navigateToUrl(EditAccountRepo.EDITACCOUNT_URL);
     }
 
     @Step("Input account no: {0}")

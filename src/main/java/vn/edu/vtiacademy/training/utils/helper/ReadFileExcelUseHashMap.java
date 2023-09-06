@@ -15,7 +15,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.slf4j.Logger;
 import vn.edu.vtiacademy.training.utils.keywords.Excel;
-public class ReadFileExcelUseHashMap {
+//public class ReadFileExcelUseHashMap {
 //    private static Logger logger =LogHelper.getLogger();
 //    public static Map<String,List<Map<String,String>>>readDataTestCase(String filePath,String sheetName,String tableName){
 //        File file =new File(filePath);
@@ -65,7 +65,7 @@ public class ReadFileExcelUseHashMap {
 //        }
 //
 //        }
-
-
-    }
-}
+//
+//
+//    }
+//}
